@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WallBar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Category</string>
+    <string name="title_notifications">Customize</string>
+    <string name="wallbar">WallBar</string>
+</resources>

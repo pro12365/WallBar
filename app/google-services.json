@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147542127065",
+    "project_id": "wallber-cd3e8",
+    "storage_bucket": "wallber-cd3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147542127065:android:984564ffb75fa96f6f29c8",
+        "android_client_info": {
+          "package_name": "com.example.wallber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147542127065-ijl1fn220evmspv6u39op205t168usn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV3m8_4Zuo-fKZ7kXor1bc0BVpr2GHNoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147542127065-ijl1fn220evmspv6u39op205t168usn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
