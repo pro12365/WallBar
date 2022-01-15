@@ -1,6 +1,6 @@
 package com.example.wallBar.Model
 
 data class FirebaseData(
-    val id:String="",
+    val Id:String="",
     val link:String="",
 )

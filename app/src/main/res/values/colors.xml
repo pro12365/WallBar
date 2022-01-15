@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Tourquise">#1abc9c</color>
+    <color name="gradient_start">#D4E157</color>
+    <color name="gradient_center">#29B6F6</color>
+    <color name="color_Gradient_End">#d50000</color>
+    <color name="Rosepink">#FF66CC</color>
+    <color name="Shinypurple">#B941FF </color>
 </resources>

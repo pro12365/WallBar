@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.wallBar.Adapter.FeaturedAdapter
 import com.example.wallBar.Adapter.tc_adapter
+import com.example.wallBar.Model.FeaturedData
 import com.example.wallBar.Model.FirebaseData
 import com.example.wallBar.databinding.FragmentHomeBinding
 import com.google.firebase.firestore.FirebaseFirestore
@@ -35,13 +37,35 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
         db = FirebaseFirestore.getInstance()
+        db.collection("Featured").addSnapshotListener { value, error -> Log.e("Professional debugger",error?.message.orEmpty())
+            val listfeatured= arrayListOf<FeaturedData>()
+            val featdata= value?.toObjects(FeaturedData::class.java)
+            listfeatured.addAll(featdata!!)
+            for(i in listfeatured)
+            {
+                Log.e("tttt","reprting "+i)
+//                if(data==null)
+//                {
+//                    Log.e("mmmm","null brother")
+//                }
+            }
+            binding.recyclerViewFeatured.layoutManager=LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,true)
+            binding.recyclerViewFeatured.adapter=FeaturedAdapter(requireContext(),listfeatured)
+        }
+
         db.collection("Top Selections").addSnapshotListener { value, error ->
+            Log.e("Professional debugger",error?.message.orEmpty())
             val listbestofthemont = arrayListOf<FirebaseData>()
             val data = value?.toObjects(FirebaseData::class.java)
+
+
+            if (!data.isNullOrEmpty())
             listbestofthemont.addAll(data!!)
-            binding.recyclerViewBom.layoutManager = GridLayoutManager(requireContext(), 2)
+            binding.recyclerViewBom.layoutManager = GridLayoutManager(requireContext(),2)
             binding.recyclerViewBom.adapter = tc_adapter(requireContext(), listbestofthemont)
+
         }
+
         return binding.root
     }
 
