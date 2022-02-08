@@ -15,6 +15,7 @@ class FeaturedAdapter(val requireContext: Context, val listfeatured: ArrayList<F
     RecyclerView.Adapter<FeaturedAdapter.Featured_ViewHolder>() {
     inner class Featured_ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgvw1= itemView.findViewById<ImageView>(R.id.wpimage3)
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Featured_ViewHolder {

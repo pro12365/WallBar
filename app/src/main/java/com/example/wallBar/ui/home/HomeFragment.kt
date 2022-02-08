@@ -1,5 +1,4 @@
 package com.example.wallBar.ui.home
-
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -44,10 +43,6 @@ class HomeFragment : Fragment() {
             for(i in listfeatured)
             {
                 Log.e("tttt","reprting "+i)
-//                if(data==null)
-//                {
-//                    Log.e("mmmm","null brother")
-//                }
             }
             binding.recyclerViewFeatured.layoutManager=LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,true)
             binding.recyclerViewFeatured.adapter=FeaturedAdapter(requireContext(),listfeatured)

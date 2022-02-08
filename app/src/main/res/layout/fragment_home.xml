@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_dark_background"
+    android:background="@color/Nightsky"
     tools:context=".ui.home.HomeFragment">
 
     <RelativeLayout
@@ -47,7 +47,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView_featured"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                />
 
             <TextView
                 android:layout_width="match_parent"
@@ -68,7 +69,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/toolbar"
+            android:layout_marginLeft="0dp"
             android:layout_marginTop="15dp"
+            android:layout_marginRight="0dp"
             android:orientation="vertical">
 
         </LinearLayout>

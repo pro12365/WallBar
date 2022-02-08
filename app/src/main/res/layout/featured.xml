@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="120dp"
+    android:layout_height="200dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="6dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview_wpimage"
-        app:cardCornerRadius="10dp"
-        android:layout_width="256dp"
-        android:layout_height="144dp"
-        android:layout_margin="0dp"
-        android:layout_marginBottom="4dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginBottom="1dp"
+        app:cardCornerRadius="15dp">
 
         <ImageView
             android:id="@+id/wpimage3"
-            android:layout_width="256dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="4dp"
-            android:layout_marginRight="4dp"
+            android:layout_margin="0dp"
+            android:layout_marginRight="0dp"
             android:background="@drawable/shimmer"
             android:scaleType="centerCrop" />
 

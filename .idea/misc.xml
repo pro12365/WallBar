@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.194" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22777777777777777" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_rectangle_9.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_splash.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/featured.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_categories.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_clickedwallpaper.xml" value="0.2140625" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_customize.xml" value="0.1503623188405797" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_dashboard.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_home.xml" value="0.264" />

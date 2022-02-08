@@ -25,6 +25,10 @@ class tc_adapter( val requireContext: Context, val listbestofthemont: ArrayList<
     override fun onBindViewHolder(holder: tc_viewholder, position: Int) {
         holder.imgvw
         Glide.with(requireContext).load(listbestofthemont[position].link).into(holder.imgvw);
+        holder.itemView.setOnClickListener {
+
+        }
+
     }
 
     override fun getItemCount()= listbestofthemont.size
