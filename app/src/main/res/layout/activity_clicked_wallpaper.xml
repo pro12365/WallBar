@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Nightsky"
     tools:context=".ui.ClickedWallpaper">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/llk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/llk"
+        android:layout_marginBottom="5dp">
+
+
+        <ImageButton
+            android:id="@+id/butset"
+            android:layout_width="56dp"
+            android:layout_height="146dp"
+            android:layout_alignLeft="@id/butshare"
+            android:layout_marginLeft="150dp"
+            android:background="@mipmap/set"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/download"
+            android:layout_width="56dp"
+            android:layout_height="146dp"
+            android:layout_alignLeft="@id/butshare"
+            android:layout_marginLeft="292dp"
+            android:background="@mipmap/loaddown"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/butshare"
+            android:layout_width="56dp"
+            android:layout_height="146dp"
+            android:layout_marginLeft="3dp"
+            android:background="@mipmap/share"></ImageButton>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -2,24 +2,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.wallBar">
 
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
     <application
-        android:name="com.example.wallBar.MyApplication"
+        android:name=".MyApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WallBar">
         <activity
-            android:name="com.example.wallBar.SplashActivity"
+            android:name=".ui.CaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ClickedWallpaper"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.wallBar.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name" />
     </application>
