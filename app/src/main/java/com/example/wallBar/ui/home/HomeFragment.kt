@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wallBar.Adapter.FeaturedAdapter
 import com.example.wallBar.Adapter.tc_adapter
 import com.example.wallBar.Model.FeaturedData
-import com.example.wallBar.Model.FirebaseData
+import com.example.wallBar.Model.TopCollectionData
 import com.example.wallBar.databinding.FragmentHomeBinding
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -50,9 +50,12 @@ class HomeFragment : Fragment() {
 
         db.collection("Top Selections").addSnapshotListener { value, error ->
             Log.e("Professional debugger",error?.message.orEmpty())
-            val listbestofthemont = arrayListOf<FirebaseData>()
-            val data = value?.toObjects(FirebaseData::class.java)
-
+            val listbestofthemont = arrayListOf<TopCollectionData>()
+            val data = value?.toObjects(TopCollectionData::class.java)
+            for(i in listbestofthemont)
+            {
+                Log.e("mmmm","reprting "+i)
+            }
 
             if (!data.isNullOrEmpty())
             listbestofthemont.addAll(data!!)

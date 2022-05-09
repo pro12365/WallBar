@@ -21,17 +21,16 @@
 
     <TextView
         android:id="@+id/nametext"
-        android:layout_width="115dp"
+        android:layout_width="100dp"
         android:layout_height="51dp"
         android:layout_gravity="center"
         android:fontFamily="casual"
         android:text="@string/sample"
         android:textAlignment="center"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/TurkishBlue"
         android:textStyle="bold">
 
     </TextView>
-
 
 </androidx.cardview.widget.CardView>
 </androidx.appcompat.widget.LinearLayoutCompat>

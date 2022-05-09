@@ -11,16 +11,17 @@ import com.bumptech.glide.Glide
 import com.example.wallBar.Model.TopCollectionData
 import com.example.wallBar.R
 import com.example.wallBar.ui.ClickedWallpaper
+import com.makeramen.roundedimageview.RoundedImageView
 
-class tc_adapter( val requireContext: Context, val listbestofthemont: ArrayList<TopCollectionData>) :RecyclerView.Adapter<tc_adapter.tc_viewholder>() {
+class Catimageadapter(val requireContext: Context, val listbestofthemont: ArrayList<TopCollectionData>) :RecyclerView.Adapter<Catimageadapter.tc_viewholder>() {
     inner class tc_viewholder(itemView: View) : RecyclerView.ViewHolder(itemView)
     {
-        val imgvw= itemView.findViewById<ImageView>(R.id.wpimage)
+        val imgvw= itemView.findViewById<RoundedImageView>(R.id.stagimage)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): tc_viewholder {
       return tc_viewholder(
-          LayoutInflater.from(requireContext).inflate(R.layout.topcollections,parent,false)
+          LayoutInflater.from(requireContext).inflate(R.layout.wallpaper_cat,parent,false)
       )
     }
 

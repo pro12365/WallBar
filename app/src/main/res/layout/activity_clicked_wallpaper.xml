@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Nightsky"
     tools:context=".ui.ClickedWallpaper">
 
     <ImageView
@@ -21,24 +20,24 @@
 
         <ImageButton
             android:id="@+id/butset"
-            android:layout_width="56dp"
-            android:layout_height="146dp"
+            android:layout_width="47dp"
+            android:layout_height="52dp"
             android:layout_alignLeft="@id/butshare"
             android:layout_marginLeft="150dp"
             android:background="@mipmap/set"></ImageButton>
 
         <ImageButton
             android:id="@+id/download"
-            android:layout_width="56dp"
-            android:layout_height="146dp"
+            android:layout_width="47dp"
+            android:layout_height="52dp"
             android:layout_alignLeft="@id/butshare"
-            android:layout_marginLeft="292dp"
-            android:background="@mipmap/loaddown"></ImageButton>
+            android:layout_marginLeft="300dp"
+            android:background="@mipmap/setter"></ImageButton>
 
         <ImageButton
             android:id="@+id/butshare"
-            android:layout_width="56dp"
-            android:layout_height="146dp"
+            android:layout_width="47dp"
+            android:layout_height="52dp"
             android:layout_marginLeft="3dp"
             android:background="@mipmap/share"></ImageButton>
 

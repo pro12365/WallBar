@@ -9,13 +9,42 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/Toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/purple_200"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/app_name"
-        app:titleCentered="true" />
+        app:titleCentered="true">
+
+        <Button
+            android:id="@+id/notifybut"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="35dp"
+            android:background="@mipmap/notify"
+            android:layout_gravity="right"></Button>
+        <Button
+            android:id="@+id/buttonsettings"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/setit"
+            android:layout_gravity="right"
+            android:textColorHint="@color/TurkishBlue"
+            android:layout_marginRight="21dp"></Button>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="@string/toolbartext"
+            android:textSize="25dp"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="@color/TurkishBlue"
+            android:layout_marginRight="180dp"
+            android:layout_marginTop="10dp"></TextView>
+    </com.google.android.material.appbar.MaterialToolbar>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -32,6 +61,9 @@
     <fragment
         android:id="@+id/nav_host_fragment_activity_main"
         android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:defaultNavHost="true"

@@ -3,15 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_cat_final.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_cat_pol.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_cater.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_clicked_wallpaper.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_splash.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/colortonecollection.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/featured.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_categories.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_home.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/item_cat.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/item_category.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/topcollections.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/layout/wallpaper_cat.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/Wallber/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.194" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/drawable/ic_rectangle_9.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_category.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_category_final_look.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_cater.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_clicked_wallpaper.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/activity_splash.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/colortonecollection.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/featured.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_categories.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Wallber/app/src/main/res/layout/fragment_clickedwallpaper.xml" value="0.2140625" />

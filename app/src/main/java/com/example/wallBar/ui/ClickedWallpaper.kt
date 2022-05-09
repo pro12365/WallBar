@@ -35,7 +35,6 @@ class ClickedWallpaper : AppCompatActivity() {
         val urlimage = URL(url)
         Glide.with(this).load(url).into(binding.llk)
         fun saveImage(image: Bitmap?) {
-
             val random1 = Random().nextInt(520985)
             val random2 = Random().nextInt(520985)
 

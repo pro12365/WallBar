@@ -6,11 +6,14 @@
 
     <application
         android:name=".MyApplication"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/wallbarimagelogo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WallBar">
+        <activity
+            android:name=".ui.dashboard.cat_pol"
+            android:exported="false" />
         <activity
             android:name=".ui.CaterActivity"
             android:exported="false" />

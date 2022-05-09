@@ -9,7 +9,6 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.wallBar.Model.FeaturedData
-import com.example.wallBar.Model.FirebaseData
 import com.example.wallBar.R
 import com.example.wallBar.ui.ClickedWallpaper
 

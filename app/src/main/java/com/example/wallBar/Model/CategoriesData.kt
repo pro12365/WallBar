@@ -1,6 +1,6 @@
 package com.example.wallBar.Model
 
-data class CategoriesData(val Id:String="",
+data class CategoriesData(val ID:String="",
                           val Link:String="",
                           val Name:String="",
 )

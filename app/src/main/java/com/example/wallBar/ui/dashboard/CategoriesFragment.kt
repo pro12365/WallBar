@@ -5,15 +5,14 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wallBar.Adapter.categories_adapter
-import com.example.wallBar.Adapter.tc_adapter
+import com.example.wallBar.Adapter.colortone_adapter
 import com.example.wallBar.Model.CategoriesData
-import com.example.wallBar.Model.FirebaseData
+import com.example.wallBar.Model.Colortone_Data
 import com.example.wallBar.databinding.FragmentCategoriesBinding
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -46,16 +45,26 @@ class CategoriesFragment : Fragment() {
             for(i in catlist)
             {
                 Log.e("cccc","catlist is returning valid "+i)
+
             }
             binding.recyclerViewCategories.layoutManager = GridLayoutManager(requireContext(),3)
             binding.recyclerViewCategories.adapter = categories_adapter(requireContext(), catlist)
 
         }
+         db.collection("Colortone").addSnapshotListener{ value, error ->
+            Log.e("debugger", error?.message.orEmpty())
+         val colortonelist= arrayListOf<Colortone_Data>()
+          val coldata= value?.toObjects(Colortone_Data::class.java)
+            colortonelist.addAll(coldata!!)
+            for(i in colortonelist)
+            {
+                Log.e("cccc","Color Tone is returning valid "+i)
+            }
+            binding.recyclerViewColortone.layoutManager = LinearLayoutManager(requireContext(),
+                LinearLayoutManager.HORIZONTAL,true)
+            binding.recyclerViewColortone.adapter = colortone_adapter(requireContext(),colortonelist)
+
+        }
         return binding.root
     }
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
-
     }
